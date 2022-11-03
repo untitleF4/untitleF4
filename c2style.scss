@@ -1,0 +1,92 @@
+
+$godo : "Godo", "Pretendard", 돋움, sans-serif ;
+$pre : "Pretendard", "Godo", 돋움, sans-serif ;
+
+@mixin mainblue {
+    font : {
+        family: $godo;
+        weight: 700;
+        size: 33px;
+    }
+    color: #3a68b3;
+}
+@mixin mainblack {
+    font : {
+        family: $pre;
+        weight: 700;
+        size: 33px;
+    }
+    color: #222222;
+}
+
+.container {
+    overflow: hidden;
+}
+
+h3 {
+    @include mainblack;
+    text-align: center;
+    margin: 30px;
+        em {
+            @include mainblue;
+            font-style: normal;
+        }
+}
+.container {
+    margin: 0 auto;
+    width: 945px;
+        div {
+            padding: 40px;
+
+                a {
+                    clear: both;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    text-decoration: none;
+                    position: relative;
+                    color: white;
+                }
+                    h4 {
+                        position: absolute;
+                        bottom: 75px; left: 0;
+                        font-family: $pre;
+                        font-size: 23px;
+                        font-weight: bold;
+                    }
+                    p {
+                        position: absolute;
+                        bottom: 55px; left: 0;
+                        font-family: 'Pretendard-light', $pre ;
+                        font-size: 14px;
+                        font-weight: 100;
+                        color: rgba(255, 255, 255, 0.74);
+                    }
+                    .box {
+                        position: absolute;
+                        bottom: 0; left: 0;
+                        border: solid 1px rgba(255, 255, 255, 0.5);
+                        padding: 10px 20px;
+                    }
+
+        }
+
+}
+
+.title1 {
+    float: left;
+    background: url(./main-image/main_service_img1.jpg) no-repeat 0 0 / cover ;
+    width: 465px; height: 455px;
+    margin-right: 15px;
+}
+.title2 {
+    float: left;
+    background: url(./main-image/main_service_img2.jpg) no-repeat 0 0 / cover ;
+    width: 465px; height: 220px;
+    margin-bottom: 15px;
+}
+.title3 {
+    float: left;
+    background: url(./main-image/main_service_img3.jpg) no-repeat 0 0 / cover ;
+    width: 465px; height: 220px;
+}
