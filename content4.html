@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>con4</title>
+
+      <!--font-->
+      <link rel="stylesheet" href="./fonts.css">
+      <!--reset-->
+      <link rel="stylesheet" href="./reset.css">
+      
+      <style>
+
+        body {
+        font-family: "Poppins", "Pretendard", sans-serif;
+        min-width: 320px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        /* color: #222; */
+        background: #fff;
+        word-break: keep-all;
+        }
+
+        * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+    
+        section {
+        font-size: 100%;
+        border: 0;
+        display: block;     
+        }
+    
+        div {
+        display: block;
+        }
+    
+        .main-banner_link {
+        display: block;
+        position: relative;
+        min-height: 400px;
+        padding: 85px 60px;
+        border-right: 1px solid #dadfe6;
+        background-color: #eee;
+        transition: background-color .3s,color .3s;
+        }
+    
+        .main-banner {
+        position: relative;
+        border-top: 1px solid #dadfe6;
+        }
+    
+        .main-banner_link{
+            color:#222;
+            padding: 40px; /* 텍스트 안쪽여백 */
+        }
+        .main-banner_item {
+            list-style: none;
+            width: 697px; height: 400px;
+            /* color:#222; */
+        }
+       
+    
+        a{
+            text-decoration: none;
+            line-height: 1.5em;
+            word-break: keep-all;
+        }
+    
+    
+        /* h1.main-banner_title, div.main-banner_more {
+            color:#222;
+        } */
+      
+    
+        .main-banner_title{
+            margin: 0 0 14px;
+            font-family: 'Poppins',sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            letter-spacing: -0.06rem;
+        }
+    
+        .main-banner_desc {
+       /* color:#474747;*/
+        font-weight: 400;
+        font-size: 17px;
+        margin: 0 0 42px;
+        }
+    
+        .main-banner_link::after {
+        width: 70%;
+        right: 0;
+        }
+    
+        .main-banner_link::after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        min-height: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: contain;
+    }
+    
+    
+        .swiper-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            display: flex;
+            transition-property: transform;
+            box-sizing: content-box;
+        }
+    
+        .main-banner_more {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 600;
+        border-bottom: 2px solid #222;
+        letter-spacing: -1px;
+        transition: border;
+    
+        }
+    
+        .main-banner_link.members::after {
+        right: -30px;
+        bottom: 10px;
+        max-width: 304px;
+        background-image: url(./images/main_banner_figure1.png);
+        }
+    
+    
+        .main-banner_link.members:hover {
+            color:#fff;
+        background-color:#3891b2;
+        border-bottom: 2px solid #fff;
+        
+        }
+    
+        .main-banner_link.talk::after {
+        max-width: 317px;
+        background-image: url(./images/main_banner_figure2.png);
+    
+        }
+    
+        .main-banner .main-banner_box .main-banner_link.talk:hover {
+            background-color: #db574f;
+            color:#fff;
+            border-bottom: 2px solid #fff;
+        }
+    
+        .main-banner_link.travel::after {
+        max-width: 299px;
+        background-image: url(./images/main_banner_figure3.png);
+        }
+    
+        .main-banner_link.travel:hover{
+            background-color: #f0b23a;
+            color:#fff;
+        }
+    
+       
+      </style>
+</head>
+
+<body>
+    
+    <!-- Banner -->
+
+<section class="main-banner">
+    <div class="main-banner_box">
+        <ul class="main-banner_list swiper-wrapper">  <!--ul의 이미지 3개 있는 영역 전체 감싸기-->
+            <li class="main-banner_item"> <!--각각의 li 감싸기 -->
+                <a href="https://dosiraktong.com/Main/Members" class="main-banner_link members">
+                    <h1 class="main-banner_title">도시락멤버스</h1>
+                    <p class="main-banner_desc">하나의 ID로 도시락통의 모든 서비스를<br>이용할 수 있는 통합멤버십.<br>이용 할 수록 커지는 혜택을 확인해보세요</p>
+                    <div href="#" class="main-banner_more">READ MORE</div>
+                </a>
+            </li>
+
+            <li class="main-banner_item">
+                <a href="https://www.dosiraktalk.com/" class="main-banner_link talk">
+                    <h1 class="main-banner_title">도시락톡</h1>
+                    <p class="main-banner_desc">로밍전화 요금 부담을 확 낮춰주는<br>해외로밍전화 앱 서비스.<br>도시락톡끼리는 365일 무료통화 혜택까지!</p>
+                    <div href="#" class="main-banner_more">READ MORE</div>
+                </a>
+            </li>
+
+            <li class="main-banner_item">
+                <a href="https://www.insudosirak.com/?utm_source=tong&utm_medium=subb&utm_campaign=brand" class="main-banner_link travel">
+                    <h1 class="main-banner_title">여행보험도시락</h1>
+                    <p class="main-banner_desc">방문국가, 나이 입력하고 보험료 미리보기<br>커피 두 세잔 값으로 보험료는 가볍게,<br>보장은 든든하게!</p>
+                    <div href="#" class="main-banner_more">READ MORE</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>
