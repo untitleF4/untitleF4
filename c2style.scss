@@ -19,9 +19,7 @@ $pre : "Pretendard", "Godo", 돋움, sans-serif ;
     color: #222222;
 }
 
-.sym {
-    overflow: hidden;
-}
+
 
 h3 {
     @include mainblack;
@@ -32,9 +30,14 @@ h3 {
             font-style: normal;
         }
 }
+
+
 .sym {
     margin: 0 auto;
     width: 945px;
+    overflow:hidden;
+
+
         div {
             padding: 40px;
 
@@ -80,13 +83,13 @@ h3 {
     margin-right: 15px;
 }
 .title2 {
-    float: left;
+    float: right;
     background: url(./main-image/main_service_img2.jpg) no-repeat 0 0 / cover ;
     width: 465px; height: 220px;
     margin-bottom: 15px;
 }
 .title3 {
-    float: left;
+    float: right;
     background: url(./main-image/main_service_img3.jpg) no-repeat 0 0 / cover ;
     width: 465px; height: 220px;
 }
