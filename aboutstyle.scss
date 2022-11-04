@@ -1,0 +1,30 @@
+
+$godo : "Godo", "Pretendard", 돋움, sans-serif ;
+$pre : "Pretendard", "Godo", 돋움, sans-serif ;
+
+body {
+    margin: 0;
+    font-family: $pre;
+}
+ul li {
+    list-style: none;
+    padding: 0;
+}
+
+.content {
+    height: 1050px;
+    background-color: #091020;
+    color: #ffff;
+    background-image: url(./aboutus-image/about_graph_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services {
+    width: 945px;
+    margin: 0 auto;
+        
+        h4 {
+            font-family: 'Poppins', $pre;
+            font-size: 46px;
+        }
+}

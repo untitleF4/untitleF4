@@ -2,7 +2,7 @@
 h3 {
   font-family: "Pretendard", "Godo", 돋움, sans-serif;
   font-weight: 700;
-  font-size: 33px;
+  font-size: 38px;
   color: #222222;
   text-align: center;
   margin: 30px;
@@ -10,14 +10,14 @@ h3 {
 h3 em {
   font-family: "Godo", "Pretendard", 돋움, sans-serif;
   font-weight: 700;
-  font-size: 33px;
+  font-size: 38px;
   color: #3a68b3;
   font-style: normal;
 }
 
 .sym {
   margin: 0 auto;
-  width: 945px;
+  width: 1420px;
   overflow: hidden;
 }
 .sym div {
@@ -34,10 +34,10 @@ h3 em {
 }
 .sym div h4 {
   position: absolute;
-  bottom: 75px;
+  bottom: 85px;
   left: 0;
   font-family: "Pretendard", "Godo", 돋움, sans-serif;
-  font-size: 23px;
+  font-size: 26px;
   font-weight: bold;
 }
 .sym div p {
@@ -45,7 +45,7 @@ h3 em {
   bottom: 55px;
   left: 0;
   font-family: "Pretendard-light", "Pretendard", "Godo", 돋움, sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 100;
   color: rgba(255, 255, 255, 0.74);
 }
@@ -54,28 +54,29 @@ h3 em {
   bottom: 0;
   left: 0;
   border: solid 1px rgba(255, 255, 255, 0.5);
+  font-weight: 700;
   padding: 10px 20px;
 }
 
 .title1 {
   float: left;
   background: url(./main-image/main_service_img1.jpg) no-repeat 0 0/cover;
-  width: 465px;
-  height: 455px;
-  margin-right: 15px;
+  width: 700px;
+  height: 680px;
+  margin-right: 20px;
 }
 
 .title2 {
   float: right;
   background: url(./main-image/main_service_img2.jpg) no-repeat 0 0/cover;
-  width: 465px;
-  height: 220px;
-  margin-bottom: 15px;
+  width: 700px;
+  height: 330px;
+  margin-bottom: 20px;
 }
 
 .title3 {
   float: right;
   background: url(./main-image/main_service_img3.jpg) no-repeat 0 0/cover;
-  width: 465px;
-  height: 220px;
+  width: 700px;
+  height: 330px;
 }
