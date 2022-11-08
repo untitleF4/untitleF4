@@ -227,6 +227,8 @@ font-size: 16px;
   display: flex;
   align-self: flex-end;
   z-index: 99999;
+  animation: scale5 3s forwards alternate
+
 
 }
 
@@ -254,7 +256,7 @@ font-size: 16px;
   position: absolute;
   top:200px; right: 0;
   z-index: 9999;
-  
+  animation: scale3 3s forwards ;
 
 }
 
@@ -267,6 +269,9 @@ font-size: 16px;
 
 .bg li{
   border-radius: 50%;
+
+
+
 }
 
 .bottom1{
@@ -274,6 +279,7 @@ font-size: 16px;
   width: 640px; height: 640px;
 position: absolute;  z-index: 999;
 top:500px; right: 175px; 
+animation: scale1 2s forwards alternate
 }
 
 .bottom2{
@@ -282,6 +288,7 @@ top:500px; right: 175px;
   top:400px; right: 90px;
   width: 820px; height: 820px;
   z-index: 99;
+  animation: scale2 2s forwards alternate
 }
 .bottom3{
   background-color: #f5f7fb;
@@ -289,6 +296,38 @@ top:500px; right: 175px;
   top:300px; right: 0;
   width:1000px; height: 1000px;
   z-index: 9;
+  animation: scale3 2s forwards alternate;
+}
+
+@keyframes scale1 {
+  0%   { transform: scale(0) }
+  100%  { transform: scale(1) }
+}
+
+@keyframes scale2 {
+  0%, 40% { transform: scale(0) }
+  100% {transform: scale(1) }
+}
+
+@keyframes scale3 {
+  0%, 65% { transform: scale(0) }
+  100% { transform: scale(1) }
+}
+
+@keyframes scale4 {
+  0%, 80% { transform: scale(0) }
+  100% { transform: scale(1) }
 
 }
 
+@keyframes scale5 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  0%,95% { transform: scale(0) }
+  100% { transform: scale(1) }
+
+}
