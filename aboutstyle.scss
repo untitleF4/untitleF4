@@ -19,6 +19,7 @@ ul li {
     aspect-ratio: auto;
 }
 
+
 .content {
     max-width: 1920px;
     background-color: #091020;
@@ -26,15 +27,15 @@ ul li {
     position: relative;
         .about-graph {
             position: absolute;
-            top: 240px;
-            left: 250px;
-            width: 610px;
+            top: 24.5vh;
+            left: 13vw;
+            max-width: 31.7vw;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
                 .about-graph_item {
-                    width: 245px;
-                    padding-bottom: 65px;
+                    max-width: 12.7vw;
+                    padding-bottom: 6.6vh;
                 }
         }
         .about-graph_title {
@@ -56,8 +57,8 @@ ul li {
             margin: 0; padding: 0;
             font-size: 18px;
             position: absolute;
-            top: 670px;
-            left: 295px;
+            top: 50vh;
+            left: 2vw;
         }
 }
 
