@@ -227,7 +227,7 @@ font-size: 16px;
   display: flex;
   align-self: flex-end;
   z-index: 99999;
-  animation: scale5 3s forwards alternate
+  animation: scale5 2s forwards alternate
 
 
 }
@@ -256,7 +256,7 @@ font-size: 16px;
   position: absolute;
   top:200px; right: 0;
   z-index: 9999;
-  animation: scale3 3s forwards ;
+  animation: scale3 2s forwards ;
 
 }
 
@@ -278,25 +278,25 @@ font-size: 16px;
   background-color: #e2e9f3;
   width: 640px; height: 640px;
 position: absolute;  z-index: 999;
-top:500px; right: 175px; 
-animation: scale1 2s forwards alternate
+top:450px; right: 175px; 
+animation: scale1 1s forwards alternate
 }
 
 .bottom2{
   background-color: #ebf0f7;
   position: absolute;
-  top:400px; right: 90px;
+  top:350px; right: 90px;
   width: 820px; height: 820px;
   z-index: 99;
-  animation: scale2 2s forwards alternate
+  animation: scale2 1s forwards alternate
 }
 .bottom3{
   background-color: #f5f7fb;
   position: absolute;
-  top:300px; right: 0;
+  top:250px; right: 0;
   width:1000px; height: 1000px;
   z-index: 9;
-  animation: scale3 2s forwards alternate;
+  animation: scale3 1s forwards alternate;
 }
 
 @keyframes scale1 {
