@@ -65,7 +65,7 @@ header ul li a p {
 header ul li a p::after {
   content: "";
   width: 0;
-  height: 3px;
+  height: 2px;
   background-color: #444;
   position: absolute;
   top: 30px;
