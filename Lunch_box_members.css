@@ -88,6 +88,7 @@ body{
   bottom: 60px;
   background-image: url(./images/arrow_top.png);
   background-size: 100%;
+  z-index: 9999999;
 }
 .wrap_footer footer .footer_box ul {
   display: flex;
