@@ -177,7 +177,7 @@ ul li {
   color: #7d8089;
   font-size: 20px;
   border-bottom: 1px solid #7d8089;
-  font-family: 'Pretendard','Poppins','godo'sans-serif;
+  font-family: 'Pretendard','Poppins','godo',sans-serif;
 }
 .content .about-graph_count {
   font-size: 50px;
@@ -186,7 +186,7 @@ ul li {
   text-align: right;
   margin: 0;
   font-weight: 700;
-  font-family: 'Pretendard','Poppins','godo'sans-serif;
+  font-family: 'Pretendard','Poppins','godo',sans-serif;
 
 }
 .content .about-graph_standard {
