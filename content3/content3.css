@@ -68,7 +68,7 @@ body {
   opacity: 1;
 }
 
-.wrap_footer footer {
+footer {
   font-family: "Pretendard", "Poppins", sans-serif;
   background-color: #222;
   color: rgb(102, 102, 102);
@@ -77,10 +77,10 @@ body {
   display: flex;
   justify-content: center;
 }
-.wrap_footer footer .footer_box {
+footer .footer_box {
   width: 100%;
 }
-.wrap_footer footer .footer_box a {
+footer .footer_box a {
   width: 60px;
   height: 60px;
   position: fixed;
@@ -89,18 +89,18 @@ body {
   background-image: url(./images/arrow_top.png);
   background-size: 100%;
 }
-.wrap_footer footer .footer_box ul {
+footer .footer_box ul {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
   line-height: 1.7;
 }
-.wrap_footer footer .footer_box ul li {
+footer .footer_box ul li {
   font-size: 15px;
   color: rgb(102, 102, 102);
   padding: 0 18px;
 }
-.wrap_footer footer .footer_box .copy {
+footer .footer_box .copy {
   font-size: 14px;
   margin: 50px 0 0;
   color: rgb(68, 68, 68);
