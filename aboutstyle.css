@@ -4,16 +4,26 @@
  html {
   scroll-behavior: smooth;
  }
-div.wrap_content3{
-  margin-top: 150px;
+/* 안녕 */
+
+button {
+  border-style: none;
+  background-color: #fff;
 }
-.wrap_header header { z-index: 2;
-  font-size: 17px;
+
+textarea {
+  border-style: none;
+  background-color: #fff;
+}
+
+header {
+  font-family: "Pretendard", sans-serif;
+  font-size: 17ax;
   font-weight: 500;
   width: 100%;
   height: 100px;
   background-color: #fff;
-  box-shadow: 0 1px 10px 1px rgba(68, 68, 68, 0.12);
+  box-shadow: 0 1px 10px 1px rgba(68, 68, 68, 0.1);
   padding: 0 20px;
   position: fixed;
   top: 0;
@@ -21,40 +31,55 @@ div.wrap_content3{
   justify-content: space-between;
   align-items: center;
 }
-.wrap_header header h1 {
+header h1 {
   width: 125px;
   height: 30px;
   background: url(./header-image/logo.png) no-repeat center center;
   background-size: 100% auto;
 }
-
-.wrap_header header ul {
+header ul {
   font-size: 17px;
   font-weight: 500;
   max-width: 900px;
   width: 100%;
   height: 100%;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
 }
-.wrap_header header ul li {
+header ul li {
   height: 100%;
   display: flex;
-  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
 }
-.wrap_header header ul li a {
-  color: #222;
+header ul li a {
+  text-decoration: none;
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-}
-.wrap_header header ul li a p:hover {
-  border-bottom: #444 2px solid;
   box-sizing: border-box;
 }
-
+header ul li a p {
+  color: #222;
+  position: relative;
+}
+header ul li a p::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #444;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  transition: 0.2s;
+  opacity: 0;
+}
+header ul li a p:hover::after {
+  width: 100%;
+  opacity: 1;
+}
 
 
 /* body*/
@@ -133,6 +158,7 @@ ul li {
   position: relative;
 }
 .content .about-graph {
+
   position: absolute;
   top: 24.5vh;
   left: 13vw;
@@ -151,6 +177,7 @@ ul li {
   color: #7d8089;
   font-size: 20px;
   border-bottom: 1px solid #7d8089;
+  font-family: 'Pretendard','Poppins','godo'sans-serif;
 }
 .content .about-graph_count {
   font-size: 50px;
@@ -159,6 +186,8 @@ ul li {
   text-align: right;
   margin: 0;
   font-weight: 700;
+  font-family: 'Pretendard','Poppins','godo'sans-serif;
+
 }
 .content .about-graph_standard {
   margin: 0;
@@ -233,15 +262,19 @@ ul li {
 
 
 /* footer */
-.wrap_footer footer {
+footer {
+  font-family: "Pretendard", "Poppins", sans-serif;
   background-color: #222;
-  color: #444;
-  padding: 60px;
+  color: rgb(102, 102, 102);
+  padding: 60px 0;
   text-align: center;
   display: flex;
   justify-content: center;
 }
-.wrap_footer footer .footer_box a {
+footer .footer_box {
+  width: 100%;
+}
+footer .footer_box a {
   width: 60px;
   height: 60px;
   position: fixed;
@@ -250,63 +283,19 @@ ul li {
   background-image: url(./images/arrow_top.png);
   background-size: 100%;
 }
-.wrap_footer footer .footer_box ul {
+footer .footer_box ul {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
   line-height: 1.7;
 }
-.wrap_footer footer .footer_box ul li {
+footer .footer_box ul li {
   font-size: 15px;
-  color: #444;
-}
-.wrap_footer footer .footer_box ul li span {
+  color: rgb(102, 102, 102);
   padding: 0 18px;
 }
-.wrap_footer footer .footer_box .copy {
+footer .footer_box .copy {
   font-size: 14px;
   margin: 50px 0 0;
-}
-
-.wrap_content3 main .content_box {
-  margin: 0 10% 240px;
-  padding: 20px;
-  display: flex;
-  text-align: left;
-}
-.wrap_content3 main .content_box h3 {
-  font-size: 34px;
-  margin: 0 0 40px;
-  width: 50%;
-}
-.wrap_content3 main .content_box h3 span {
-  font-family: "Godo", "notokr";
-  font-size: 44px;
-  color: #3a68b2;
-}
-.wrap_content3 main .content_box .txtBox {
-   width: 50%;
-}
-.wrap_content3 main .content_box .txtBox h4 {
-  font-size: 28px;
-  font-weight: 500;
-  margin: 0 0 30px;
-}
-.wrap_content3 main .content_box .txtBox h4 span {
-  font-weight: 700;
-  color: #3a68b2;
-}
-.wrap_content3 main .content_box .txtBox p {
-  margin: 0 0 25px;
-}
-.wrap_content3 main .content_box .txtBox a {
-  font-weight: 600;
-  display: flex;
-  justify-content: start;
-  margin: 90px auto 0 0;
-  padding: 0 10px;
-  max-width: 140px;
-  width: 100%;
-  height: 50px;
-  border-bottom: rgb(34, 34, 34) 2px solid;
+  color: rgb(68, 68, 68);
 }
