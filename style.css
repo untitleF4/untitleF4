@@ -181,7 +181,6 @@ div.wrap_content3{
         color: #3a68b3;
         font-style: normal;
         }
-
         .sym {
         margin: 0 auto;
         width: 1420px;
@@ -275,7 +274,12 @@ div.wrap_content3{
             border-right: 1px solid #dadfe6;
             background-color: #eee;
             transition: background-color .3s,color .3s;
+            transition-duration: 0.3s, 0.3s;
+            transition-timing-function: ease, ease;
+            transition-delay: 0s, 0s;
+            transition-property: background-color, color;
             }
+        
         
             .main-banner {
             position: relative;
@@ -377,7 +381,7 @@ div.wrap_content3{
             .main-banner_link.members:hover {
                 color:#fff;
                 background-color:#3891b2;
-                border-bottom: 2px solid #fff;
+                /* border-bottom: 2px solid #fff; */
             
             }
         
@@ -390,7 +394,7 @@ div.wrap_content3{
             .main-banner .main-banner_box .main-banner_link.talk:hover {
                 background-color: #db574f;
                 color:#fff;
-                border-bottom: 2px solid #fff;
+                /* border-bottom: 2px solid #fff; */
             }
         
             .main-banner_link.travel::after {
@@ -404,6 +408,28 @@ div.wrap_content3{
             }
 
             /* footer */
+
+            /* .top.show {
+                visibility: visible;
+                opacity: 1;
+            }
+            .top {
+                position: fixed;
+                bottom: 60px;
+                right: 60px;
+                width: 60px;
+                height: 60px;
+                overflow: hidden;
+                visibility: hidden;
+                opacity: 0;
+                text-indent: -99px;
+                border-radius: 5px;
+                background-color: #3056a1;
+                transition: bottom .3s, visibility .3s, opacity .3s;
+                z-index: 1550;
+            } */
+
+
             .wrap_footer footer {
                 background-color: #222;
                 color: #444;
@@ -413,14 +439,16 @@ div.wrap_content3{
                 justify-content: center;
             }
             .wrap_footer footer .footer_box a {
-                width: 60px;
+                width: 60px; 
                 height: 60px;
                 position: fixed;
+                z-index:9999;
                 right: 60px;
                 bottom: 60px;
                 background-image: url(./images/arrow_top.png);
                 background-size: 100%;
             }
+
             .wrap_footer footer .footer_box ul {
                 display: flex;
                 justify-content: center;
@@ -438,6 +466,7 @@ div.wrap_content3{
                 font-size: 14px;
                 margin: 50px 0 0;
             }
+
 
             .wrap_content3 main .content_box {
                 margin: 0 10% 240px;
@@ -481,4 +510,4 @@ div.wrap_content3{
                 height: 50px;
                 border-bottom: rgb(34, 34, 34) 2px solid;
             }
-
+ 
