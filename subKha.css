@@ -2,7 +2,8 @@
 body{
   margin: 0 ;
   font-family: Poppins,Pretendard,sans-serif;
-  overflow-y: hidden"
+  
+
 }
 
 .wrap header {
@@ -16,7 +17,7 @@ body{
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   z-index: 99999;
 }
@@ -38,7 +39,6 @@ body{
 }
 .wrap header ul li {
   list-style: none;
-  height: 100%;
   display: flex;
   flex-flow: row nowrap;
 }
@@ -51,6 +51,7 @@ body{
   text-decoration: none;
   font-weight: bold;
   font-size: 17px;
+  width: 150px;
 }
 .wrap header ul li a p:hover {
   border-bottom: #444 2px solid;
@@ -84,10 +85,12 @@ font-size: 16px;
   justify-content: center;
   margin-bottom: 10px;
   line-height: 1.7;
+  width: 1000px;
 }
 .wrap footer .footer_box ul li {
   font-size: 15px;
   color: #444;
+  
 }
 .wrap footer .footer_box ul li span {
   padding: 0 18px;
@@ -206,11 +209,23 @@ font-size: 16px;
 .container2 h5{
   margin: auto;
   text-align: left;
-  width: 320px;
+  width: 400px;
   font-size: 38px;
   position: absolute;
-  left: 242px; bottom: 250px;
-  line-height: 1.5;
+  left: 220px; bottom: 210px;
+  
+  z-index: 9;
+  font-size: 46px;
+}
+
+.container2 h5 span::after{
+    content: "";
+    width: 70%; height: 30px;
+    background-color: #e2e9f3;
+    position: absolute;
+    bottom: 5px; left: 0;
+    z-index: -1;
+
 }
 
 @media screen and (max-width: 1500px) {
@@ -227,7 +242,7 @@ font-size: 16px;
   display: flex;
   align-self: flex-end;
   z-index: 99999;
-  animation: scale5 3s forwards alternate
+  animation: scale5 3s forwards alternate;
 
 
 }
@@ -235,7 +250,8 @@ font-size: 16px;
 .container2 .cir li{
   width: 200px; height: 200px;
   border-radius: 50%;
-  box-shadow: 0px 0px 20px #e2e9f3;
+  border: solid #e2e9f3 1px;
+  box-shadow: 0px 0px 50px #e2e9f3;
   margin:0 5px;
   background-color: white; 
 }
@@ -256,9 +272,6 @@ font-size: 16px;
   top:150px; right: 60px;
   z-index: 9999;
 }
-
-
-
 .phon{
   animation: scale3 3s forwards ;
   position: absolute;
@@ -329,14 +342,9 @@ animation: scale1 2s forwards alternate
   0%, 60%{ transform: scale(0)}
 
     85% {
-    -webkit-transform: translateY(50px);
-            transform: translateY(100px);
-            
-  }
-  /* 90% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-  } */
+    -webkit-transform: translateY(100px);
+ 
+}
 }
 
 @keyframes scale5 {

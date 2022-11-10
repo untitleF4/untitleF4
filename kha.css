@@ -67,7 +67,7 @@
         .kha #box ul{
             padding: 0;
             list-style: none;
-            
+           
         }
         .kha #box ul li{
             
@@ -78,9 +78,37 @@
             color:rgba(250,250,250,0.5);
             font-weight: bold;
             font-size: 14px;
-      
+            border-left: #fff;
+            
+            
         }
 
+     
+
+/* 
+            ul li:nth-child(1){
+                animation: go1 3s forwards alternate;
+                color: transparent;
+               
+            }
+
+            @keyframes go1 {
+                0%{
+                    transform:translateX(0)
+                }
+               
+                
+
+                100%{transform:translateX(100%);
+                  
+                }
+
+              
+               
+             */
+       
+        
+              
         a .material-symbols-outlined{
           vertical-align: bottom;
         }
