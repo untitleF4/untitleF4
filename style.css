@@ -1,11 +1,7 @@
 @charset "utf-8";
 
-<<<<<<< HEAD
     
 /* 공통 */
-=======
-
->>>>>>> yoom
 
     body{
         font-family: "Poppins","Pretendard",sans-serif;
@@ -23,7 +19,6 @@
             padding: 0;
             margin: 0;
             box-sizing: border-box;
-<<<<<<< HEAD
 
             list-style: none;
             }
@@ -95,27 +90,11 @@ div.wrap_content3{
      } 
 
         .kha #box p.eve{
-=======
-            }
-
-
-     .kha #element{
-        margin-left: 235px ;
-        width: 700px;
-
-     } 
-
-      .kha #box p.eve{
->>>>>>> yoom
             font-size: 74px;
             margin: 0px 0;
             font-family: 'Godo','Notokr',sans-serif;
             font-weight: 900;
-<<<<<<< HEAD
        
-=======
-
->>>>>>> yoom
         }
        .kha #box p{
             font-size: 22px;
@@ -129,11 +108,7 @@ div.wrap_content3{
             height: 100vh;  
             display: flex;
             flex-flow: column ;
-<<<<<<< HEAD
             
-=======
-
->>>>>>> yoom
         }
 
         .kha #box button{
@@ -146,11 +121,7 @@ div.wrap_content3{
             color:rgba(250,250,250,0.5);
             display: inline-block;
             margin: 240px 0 30px 10px ;
-<<<<<<< HEAD
             
-=======
-
->>>>>>> yoom
         }
 
         .kha #box a{
@@ -165,32 +136,19 @@ div.wrap_content3{
             text-decoration: none;
             color:white;
             margin: 55px 0 100px 0;
-<<<<<<< HEAD
        
    
-=======
-
-
->>>>>>> yoom
         }
         .kha #box a .material-symbols-outlined{
             padding-left: 30px;
         }
         .kha #box ul{
             padding: 0;
-<<<<<<< HEAD
             /* list-style: none; */
             
         }
         .kha #box ul li{
             
-=======
-            list-style: none;
-
-        }
-        .kha #box ul li{
-
->>>>>>> yoom
             float: left;
             border-bottom: rgba(250,250,250,0.5) solid 2px;
             padding: 4px;
@@ -198,11 +156,7 @@ div.wrap_content3{
             color:rgba(250,250,250,0.5);
             font-weight: bold;
             font-size: 14px;
-<<<<<<< HEAD
       
-=======
-
->>>>>>> yoom
         }
 
         a .material-symbols-outlined{
@@ -211,19 +165,11 @@ div.wrap_content3{
         }
 
         /* content 2 sym*/
-<<<<<<< HEAD
 
         h3 {
         font-family: "Pretendard", "Godo", 돋움, sans-serif;
         font-weight: 700;
         font-size: 38px;
-=======
-        @charset "UTF-8";
-        h3 {
-        font-family: "Pretendard", "Godo", 돋움, sans-serif;
-        font-weight: 700;
-        font-size: 33px;
->>>>>>> yoom
         color: #222222;
         text-align: center;
         margin: 100px 30px 30px 30px;
@@ -231,22 +177,14 @@ div.wrap_content3{
         h3 em {
         font-family: "Godo", "Pretendard", 돋움, sans-serif;
         font-weight: 700;
-<<<<<<< HEAD
         font-size: 38px;
-=======
-        font-size: 33px;
->>>>>>> yoom
         color: #3a68b3;
         font-style: normal;
         }
 
         .sym {
         margin: 0 auto;
-<<<<<<< HEAD
         width: 1420px;
-=======
-        width: 945px;
->>>>>>> yoom
         overflow: hidden;
         }
         .sym div {
@@ -263,17 +201,10 @@ div.wrap_content3{
         }
         .sym div h4 {
         position: absolute;
-<<<<<<< HEAD
         bottom: 85px;
         left: 0;
         font-family: "Pretendard", "Godo", 돋움, sans-serif;
         font-size: 26px;
-=======
-        bottom: 75px;
-        left: 0;
-        font-family: "Pretendard", "Godo", 돋움, sans-serif;
-        font-size: 23px;
->>>>>>> yoom
         font-weight: bold;
         }
         .sym div p {
@@ -281,11 +212,7 @@ div.wrap_content3{
         bottom: 55px;
         left: 0;
         font-family: "Pretendard-light", "Pretendard", "Godo", 돋움, sans-serif;
-<<<<<<< HEAD
         font-size: 17px;
-=======
-        font-size: 14px;
->>>>>>> yoom
         font-weight: 100;
         color: rgba(255, 255, 255, 0.74);
         }
@@ -294,46 +221,29 @@ div.wrap_content3{
         bottom: 0;
         left: 0;
         border: solid 1px rgba(255, 255, 255, 0.5);
-<<<<<<< HEAD
         /* padding: 10px 20px; */
         padding: 10px 40px 10px 20px;
-=======
-        padding: 10px 20px;
->>>>>>> yoom
         }
 
         .title1 {
         float: left;
         background: url(./images/main_service_img1.jpg) no-repeat 0 0/cover;
-<<<<<<< HEAD
         width: 700px;
         height: 680px;
         margin-right: 20px;
-=======
-        width: 465px;
-        height: 455px;
-        margin-right: 15px;
->>>>>>> yoom
         }
 
         .title2 {
         float: right;
         background: url(./images/main_service_img2.jpg) no-repeat 0 0/cover;
-<<<<<<< HEAD
         width: 700px;
         height: 330px;
         margin-bottom: 20px;
-=======
-        width: 465px;
-        height: 220px;
-        margin-bottom: 15px;
->>>>>>> yoom
         }
 
         .title3 {
         float: right;
         background: url(./images/main_service_img3.jpg) no-repeat 0 0/cover;
-<<<<<<< HEAD
         width: 700px;
         height: 330px;
         }
@@ -347,40 +257,16 @@ div.wrap_content3{
             box-sizing: border-box;
             }*/
         
-=======
-        width: 465px;
-        height: 220px;
-        }
-
-
-
-        /* Banner */
-
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            }
-
->>>>>>> yoom
             section {
             font-size: 100%;
             border: 0;
             display: block;     
             }
-<<<<<<< HEAD
         
             div {
             display: block;
             }
         
-=======
-
-            div {
-            display: block;
-            }
-
->>>>>>> yoom
             .main-banner_link {
             display: block;
             position: relative;
@@ -390,16 +276,11 @@ div.wrap_content3{
             background-color: #eee;
             transition: background-color .3s,color .3s;
             }
-<<<<<<< HEAD
         
-=======
-
->>>>>>> yoom
             .main-banner {
             position: relative;
             border-top: 1px solid #dadfe6;
             }
-<<<<<<< HEAD
         
             .main-banner_link{
                 color:#222;
@@ -415,26 +296,11 @@ div.wrap_content3{
             }
            
         
-=======
-
-            .main-banner_link{
-                color:#222;
-                padding: 40px; /* 텍스트 안쪽여백 */
-            }
-            .main-banner_item {
-                list-style: none;
-                width: 697px; height: 400px;
-                /* color:#222; */
-            }
-
-
->>>>>>> yoom
             a{
                 text-decoration: none;
                 line-height: 1.5em;
                 word-break: keep-all;
             }
-<<<<<<< HEAD
         
         
             /* h1.main-banner_title, div.main-banner_more {
@@ -442,15 +308,6 @@ div.wrap_content3{
             } */
           
         
-=======
-
-
-            /* h1.main-banner_title, div.main-banner_more {
-                color:#222;
-            } */
-
-
->>>>>>> yoom
             .main-banner_title{
                 margin: 0 0 14px;
                 font-family: 'Poppins',sans-serif;
@@ -458,31 +315,19 @@ div.wrap_content3{
                 font-size: 24px;
                 letter-spacing: -0.06rem;
             }
-<<<<<<< HEAD
         
-=======
-
->>>>>>> yoom
             .main-banner_desc {
            /* color:#474747;*/
             font-weight: 400;
             font-size: 17px;
             margin: 0 0 42px;
             }
-<<<<<<< HEAD
         
-=======
-
->>>>>>> yoom
             .main-banner_link::after {
             width: 70%;
             right: 0;
             }
-<<<<<<< HEAD
         
-=======
-
->>>>>>> yoom
             .main-banner_link::after {
             content: "";
             display: block;
@@ -495,13 +340,8 @@ div.wrap_content3{
             background-position: bottom right;
             background-size: contain;
         }
-<<<<<<< HEAD
         
         
-=======
-
-
->>>>>>> yoom
             .swiper-wrapper {
                 position: relative;
                 width: 100%;
@@ -511,11 +351,7 @@ div.wrap_content3{
                 transition-property: transform;
                 box-sizing: content-box;
             }
-<<<<<<< HEAD
         
-=======
-
->>>>>>> yoom
             .main-banner_more {
             display: flex;
             align-items: center;
@@ -527,22 +363,15 @@ div.wrap_content3{
             border-bottom: 2px solid #222;
             letter-spacing: -1px;
             transition: border;
-<<<<<<< HEAD
         
             }
         
-=======
-
-            }
-
->>>>>>> yoom
             .main-banner_link.members::after {
             right: -30px;
             bottom: 10px;
             max-width: 304px;
             background-image: url(./images/main_banner_figure1.png);
             }
-<<<<<<< HEAD
         
         
             .main-banner_link.members:hover {
@@ -558,38 +387,16 @@ div.wrap_content3{
         
             }
         
-=======
-
-
-            .main-banner_link.members:hover {
-                color:#fff;
-            background-color:#3891b2;
-            border-bottom: 2px solid #fff;
-
-            }
-
-            .main-banner_link.talk::after {
-            max-width: 317px;
-            background-image: url(./images/main_banner_figure2.png);
-
-            }
-
->>>>>>> yoom
             .main-banner .main-banner_box .main-banner_link.talk:hover {
                 background-color: #db574f;
                 color:#fff;
                 border-bottom: 2px solid #fff;
             }
-<<<<<<< HEAD
         
-=======
-
->>>>>>> yoom
             .main-banner_link.travel::after {
             max-width: 299px;
             background-image: url(./images/main_banner_figure3.png);
             }
-<<<<<<< HEAD
         
             .main-banner_link.travel:hover{
                 background-color: #f0b23a;
@@ -675,10 +482,3 @@ div.wrap_content3{
                 border-bottom: rgb(34, 34, 34) 2px solid;
             }
 
-=======
-
-            .main-banner_link.travel:hover{
-                background-color: #f0b23a;
-                color:#fff;
-            }
->>>>>>> yoom
