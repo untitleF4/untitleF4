@@ -43,6 +43,7 @@ div.wrap_content3{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 9999;
   }
   .wrap_header header h1 {
     width: 125px;
