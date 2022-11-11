@@ -16,7 +16,7 @@ textarea {
   background-color: #fff;
 }
 
-header {
+header { z-index: 2;
   font-family: "Pretendard", sans-serif;
   font-size: 17ax;
   font-weight: 500;
@@ -128,7 +128,7 @@ body {
   font-size: 15px;
   color: #fff;
 }
-.content {z-index: 1;}
+.content {}
 ul li {
   list-style: none;
   padding: 0;
@@ -280,7 +280,7 @@ footer .footer_box a {
   position: fixed;
   right: 60px;
   bottom: 60px;
-  background-image: url(./images/arrow_top.png);
+  background-image: url(./header-image/arrow_top.png);
   background-size: 100%;
 }
 footer .footer_box ul {
