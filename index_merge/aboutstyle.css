@@ -34,7 +34,7 @@ header { z-index: 2;
 header h1 {
   width: 125px;
   height: 30px;
-  background: url(./image/logo.png) no-repeat center center;
+  background: url(./images/logo.png) no-repeat center center;
   background-size: 100% auto;
 }
 header ul {
@@ -280,7 +280,7 @@ footer .footer_box a {
   position: fixed;
   right: 60px;
   bottom: 60px;
-  background-image: url(./image/arrow_top.png);
+  background-image: url(./images/arrow_top.png); 
   background-size: 100%;
 }
 footer .footer_box ul {
