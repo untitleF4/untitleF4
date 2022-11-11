@@ -34,7 +34,11 @@ header { z-index: 2;
 header h1 {
   width: 125px;
   height: 30px;
+<<<<<<< HEAD
   background: url(./image/logo.png) no-repeat center center;
+=======
+  background: url(./header-image/logo.png) no-repeat center center;
+>>>>>>> 0b2c9637118b9bf555ad99ddf2ab3e4dcc4d4f6e
   background-size: 100% auto;
 }
 header ul {
@@ -280,7 +284,11 @@ footer .footer_box a {
   position: fixed;
   right: 60px;
   bottom: 60px;
+<<<<<<< HEAD
   background-image: url(./image/arrow_top.png);
+=======
+  background-image: url(./header-image/arrow_top.png);
+>>>>>>> 0b2c9637118b9bf555ad99ddf2ab3e4dcc4d4f6e
   background-size: 100%;
 }
 footer .footer_box ul {
