@@ -37,6 +37,10 @@ header h1 {
   background: url(./images/logo.png) no-repeat center center;
   background-size: 100% auto;
 }
+header > a {
+  display: block;
+}
+
 header ul {
   font-size: 17px;
   font-weight: 500;
