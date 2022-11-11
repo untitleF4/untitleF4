@@ -142,7 +142,7 @@ footer .footer_box .copy {
 .wrap_content3 main .content_box .txtBox a {
   font-weight: 600;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   margin: 90px auto 0 0;
   padding: 0 10px;
   max-width: 140px;
