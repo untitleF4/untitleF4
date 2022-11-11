@@ -25,10 +25,10 @@
 
 /*---------header menu mhj--------- */
 
-
+/* 
 div.wrap_content3{
     margin-top: 150px;
-}
+} */
 
 .wrap_header header {
     font-size: 17px;
@@ -58,27 +58,44 @@ div.wrap_content3{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    /* flex-flow: row nowrap;
+    justify-content: space-between; */
   }
   .wrap_header header ul li {
     height: 100%;
     display: flex;
-    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
   }
   .wrap_header header ul li a {
-    color: #222;
     display: flex;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  }
+
+  .wrap_header header ul li a p {
+    color: #222;
+    position: relative;
+  }
+  .wrap_header header ul li a p::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #444;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: 0.2s;
+    opacity: 0;
+  }
+  .wrap_header header ul li a p:hover::after {
     width: 100%;
-    height: 100%;
+    opacity: 1;
   }
-  .wrap_header header ul li a p:hover {
-    border-bottom: #444 2px solid;
-    box-sizing: border-box;
-  }
-
-
   
 
 /*------------------------------------ */
@@ -172,7 +189,7 @@ div.wrap_content3{
         font-size: 38px;
         color: #222222;
         text-align: center;
-        margin: 100px 30px 30px 30px;
+        margin: 200px 30px 35px 30px;
         }
         h3 em {
         font-family: "Godo", "Pretendard", 돋움, sans-serif;
@@ -186,10 +203,10 @@ div.wrap_content3{
         width: 1420px;
         overflow: hidden;
         }
-        .sym div {
+        .sym .title1, .sym .title2, .sym .title3  {
         padding: 40px;
         }
-        .sym div a {
+        .sym .title1 a, .sym .title2 a, .sym .title3 a {
         clear: both;
         display: block;
         width: 100%;
@@ -198,7 +215,7 @@ div.wrap_content3{
         position: relative;
         color: white;
         }
-        .sym div h4 {
+        .sym .title1 h4, .sym .title2 h4, .sym .title3 h4 {
         position: absolute;
         bottom: 85px;
         left: 0;
@@ -206,7 +223,7 @@ div.wrap_content3{
         font-size: 26px;
         font-weight: bold;
         }
-        .sym div p {
+        .sym .title1 p, .sym .title2 p, .sym .title3 p  {
         position: absolute;
         bottom: 55px;
         left: 0;
@@ -467,17 +484,22 @@ div.wrap_content3{
                 margin: 50px 0 0;
             }
 
+/*여기서부터 수정함 */
 
             .wrap_content3 main .content_box {
-                margin: 0 10% 240px;
-                padding: 20px;
+                margin: 10.938vw 0 12.552vw;
+                /* padding: 20px; */
                 display: flex;
                 text-align: left;
             }
             .wrap_content3 main .content_box h3 {
-                font-size: 34px;
+                font-size: 44px;
                 margin: 0 0 40px;
                 width: 50%;
+                text-align: left;
+                letter-spacing:-0.06rem;
+                line-height: 1.35;
+                
             }
             .wrap_content3 main .content_box h3 span {
                 font-family: "Godo", "notokr";
@@ -486,6 +508,9 @@ div.wrap_content3{
             }
             .wrap_content3 main .content_box .txtBox {
                  width: 50%;
+                 padding:0 10px; /* 텍스트사이 간격 맞추기 */
+                 /* position:absolute;
+                 right: 0; */
             }
             .wrap_content3 main .content_box .txtBox h4 {
                 font-size: 28px;
@@ -500,14 +525,30 @@ div.wrap_content3{
                 margin: 0 0 25px;
             }
             .wrap_content3 main .content_box .txtBox a {
-                font-weight: 600;
-                display: flex;
-                justify-content: start;
+                /* font-weight: 600;
+                display: flex; 
+                justify-content: start; 
                 margin: 90px auto 0 0;
                 padding: 0 10px;
                 max-width: 140px;
                 width: 100%;
                 height: 50px;
-                border-bottom: rgb(34, 34, 34) 2px solid;
+                border-bottom: rgb(34, 34, 34) 2px solid; */
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                max-width: 140px;
+                height: 50px;
+                padding: 0 10px;
+                margin-top: 90px;
+                font-size: 15px;
+                font-weight: 600;
+                border-bottom: 2px solid #222;
+            }
+
+            .wrap_content3 main .content_box .txtBox a:visited{
+                color: #222;
             }
  
